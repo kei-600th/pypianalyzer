@@ -6,4 +6,3 @@ services:
       - "8050:8050"
     volumes:
       - .:/app
-    command: poetry run python app.py

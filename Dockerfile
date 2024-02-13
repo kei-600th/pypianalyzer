@@ -18,4 +18,5 @@ RUN poetry config virtualenvs.create false \
 COPY . /app/
 
 # アプリケーションの実行
-CMD ["poetry", "run", "python", "app.py"]
+CMD ["tail", "-f", "/dev/null"]
+
