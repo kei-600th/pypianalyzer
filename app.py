@@ -24,4 +24,4 @@ def update_graph(value):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run_server(debug=True, host='0.0.0.0', port=8050)
